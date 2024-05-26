@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "id": "hexkinetics",
+  "version": "${version}",
+  "name": "HexKinetics",
+  "description": "An addon mod for Hex Casting that adds additional operations on vectors and some spells/",
+  "authors": [
+    "Sonunte"
+  ],
+  "contact": {
+    "homepage": "https://sonunte.github.io/HexKinetics",
+    "sources": "https://github.com/Sonunte/HexKinetics"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      {
+        "adapter": "kotlin",
+        "value": "net.sonunte.hexkinetics.fabric.HexKineticsFabric"
+      }
+    ],
+    "client": [
+      {
+        "adapter": "kotlin",
+        "value": "net.sonunte.hexkinetics.fabric.HexKineticsClientFabric"
+      }
+    ],
+    "modmenu": [
+      "net.sonunte.hexkinetics.fabric.interop.ModMenuInterop"
+    ]
+  },
+  "mixins": [
+    "hexkinetics-common.mixins.json",
+    "hexkinetics.mixins.json"
+  ],
+  "depends": {
+    "minecraft": ">=${minecraftVersion}",
+    "fabricloader": ">=${fabricLoaderVersion}",
+    "fabric-api": "*",
+    "fabric-language-kotlin": ">=${fabricKotlinVersion}",
+    "architectury": ">=${architecturyVersion}",
+    "hexcasting": ">=${hexcastingVersion}"
+  },
+  "suggests": {
+    "modmenu": ">=4.2.0-beta.2"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "name": "hexkinetics.entry.greatertranslocation",
+  "category": "hexcasting:patterns/great_spells",
+  "icon": "minecraft:ender_eye",
+  "sortnum": 6,
+  "advancement": "hexcasting:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "hexkinetics:move_block/spell",
+      "anchor": "hexkinetics:move_block/spell",
+      "input": "vector, vector",
+      "output": "",
+      "text": "hexkinetics.page.greatertranslocation.move_block/spell"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexkinetics.page.greatertranslocation.move_block/spell.page_two"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexkinetics.page.greatertranslocation.move_block/spell.page_three"
+    }
+  ]
+}

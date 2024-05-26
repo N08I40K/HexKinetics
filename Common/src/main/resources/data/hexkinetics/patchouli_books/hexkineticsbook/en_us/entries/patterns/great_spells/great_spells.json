@@ -1,0 +1,34 @@
+{
+  "name": "hexkinetics.entry.great_kinetics",
+  "category": "hexcasting:patterns/great_spells",
+  "icon": "minecraft:cobweb",
+  "sortnum": 6,
+  "advancement": "hexcasting:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "hexkinetics:zero_g/spell",
+      "anchor": "hexkinetics:zero_g/spell",
+      "input": "entity, number",
+      "output": "",
+      "text": "hexkinetics.page.great_kinetics.zero_g/spell"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexkinetics.page.great_kinetics.zero_g/spell.page_two"
+    },
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "hexkinetics:fast/spell",
+      "anchor": "hexkinetics:fast/spell",
+      "input": "entity, number, vector",
+      "output": "",
+      "text": "hexkinetics.page.great_kinetics.fast/spell"
+    },
+    {
+      "type": "patchouli:text",
+      "text": "hexkinetics.page.great_kinetics.fast/spell.page_two"
+    }
+  ]
+}

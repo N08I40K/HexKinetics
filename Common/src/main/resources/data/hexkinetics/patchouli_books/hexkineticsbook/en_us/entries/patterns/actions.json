@@ -1,0 +1,66 @@
+{
+  "name": "hexkinetics.entry.hexkinetics_patterns",
+  "category": "hexcasting:patterns",
+  "icon": "minecraft:brick",
+  "sortnum": 4,
+  "advancement": "hexcasting:root",
+  "read_by_default": true,
+  "pages": [
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "hexkinetics:direction/const",
+      "anchor": "hexkinetics:direction/const",
+      "input": "entity",
+      "output": "vector",
+      "text": "hexkinetics.page.hexkinetics_patterns.direction/const"
+    },
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "hexkinetics:pixel/raycast",
+      "anchor": "hexkinetics:pixel/raycast",
+      "input": "vector, vector",
+      "output": "vector",
+      "text": "hexkinetics.page.hexkinetics_patterns.pixel/raycast"
+    },
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "hexkinetics:is_gravity/const",
+      "anchor": "hexkinetics:is_gravity/const",
+      "input": "entity",
+      "output": "bool",
+      "text": "hexkinetics.page.hexkinetics_patterns.is_gravity/const"
+    },
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "hexkinetics:visibility/const",
+      "anchor": "hexkinetics:visibility/const",
+      "input": "entity, vector",
+      "output": "bool",
+      "text": "hexkinetics.page.hexkinetics_patterns.visibility/const"
+    },
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "hexkinetics:get_vehicle/const",
+      "anchor": "hexkinetics:get_vehicle/const",
+      "input": "entity",
+      "output": "entity",
+      "text": "hexkinetics.page.hexkinetics_patterns.get_vehicle/const"
+    },
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "hexkinetics:get_rider/const",
+      "anchor": "hexkinetics:get_rider/const",
+      "input": "entity",
+      "output": "entity",
+      "text": "hexkinetics.page.hexkinetics_patterns.get_rider/const"
+    },
+    {
+      "type": "hexcasting:pattern",
+      "op_id": "hexkinetics:get_shooter/const",
+      "anchor": "hexkinetics:get_shooter/const",
+      "input": "entity",
+      "output": "entity",
+      "text": "hexkinetics.page.hexkinetics_patterns.get_shooter/const"
+    }
+  ]
+}
